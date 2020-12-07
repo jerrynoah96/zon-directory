@@ -1,0 +1,81 @@
+
+/* ScrollBar css-start */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* ScrollBar css-ends */
+
+/* Search Bar */
+.active-cyan input.form-control[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+/* container css */
+.box{
+  margin-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.container1{
+   background-color:whitesmoke;
+    width: 20%;
+    height: 1000px;
+    display: inline-block;
+    float: left;
+}
+.container2{
+    background-color:whitesmoke;
+    width: 60%;
+    height: 1000px;
+     display: inline-block;
+
+}
+.container3{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 1000px;
+     display: inline-block;
+     float: right;
+}
+.btn-light{
+  float: right;
+}
+/* like and dislike css */
+input{
+  width: 30px;
+  border: none;
+  background: none;
+  color: #919191;
+  font-size: 20px;
+  pointer-events: none;
+}
+button{
+  color:black;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+button:active{
+  color: #004eff;
+  transform: scale(1.2);
+}

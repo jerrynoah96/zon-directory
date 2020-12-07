@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+        <!-- add after bootstrap.min.css -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <title>Zon</title>
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+<!-- Each section(Toc to ads) is it own container and are numbered from left to tight  -->
+
+    <section class="box">
+<!-- Container 1- Toc -->
+                <aside class="container1">
+
+                    <div class="cointainer">
+                        <!-- Search form -->
+                        <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan active-cyan-2 ml-n4 mt-3">
+                        
+                            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+                        </form>
+
+                        <div>
+                            <nav id="toc" data-toggle="toc" class="mt-3"></nav>
+                        </div>
+                    </div>
+                </aside>
+<!-- Container 2- Post -->
+                <aside class="container2">
+                    <!-- Each post is in a container with white bg. -->
+                    <!-- Post1 -->
+                    <div class="container bg-white ">
+                        <hr>
+                            <header class="mt-1">
+                                <h5> Zon Directory</h5> 
+                            </header>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic et deserunt 
+                                tempore expedita facere eum distinctio! Saepe, dolore quaerat molestias neque vel officia 
+                                architecto fuga ipsam officiis magni vero.
+                                <a href="#">see more.</a>
+                            </p>
+                            <span>
+                                <!-- Use an element to toggle between a like/dislike icon -->
+                                <!-- <i onclick="myFunction(this)" class="fa fa-thumbs-up" ></i> -->
+                                <!-- <i class="mdi-action-favorite red-text text-lighten-1"></i> <a href="#" onclick="AddValue()">0</a>-->
+                                
+                                <button id="likebtn" class=" fa fa-thumbs-up"></button>
+                                <input type="number" id="input1" value="0" name="">
+
+                                <button id="dislikebtn" class=" fa fa-thumbs-down"></button>
+                                <input type="number" id="input2" value="0" name="">
+                                <i class="fa fa-comment ml-3"></i>
+
+                                <button type="button" class="btn btn-light text-primary">View Blog Post</button>
+                                
+                            </span>
+                        <hr class="mt-4">
+                    </div>
+                    <!-- Post2 -->
+                    <div class="container bg-white ">
+                        <hr>
+                        <header class="mt-1">
+                            <h5> John Doe</h5>
+                        </header>
+                        <p>
+                            The international community under the leadership of Mr John Doe is indeed been a promising one
+                            as Mr Doe as lea Maor Change in the interelation between the World. Mr Doe and his close collegue is
+                            been leading major change in our world Today.... <a href="#">see more.</a>
+                        </p>
+                        <span>
+                            <!-- Use an element to toggle between a like/dislike icon -->
+                            <button id="likebtn" class=" fa fa-thumbs-up"></button>
+                            <input type="number" id="input1" value="0" name="">
+                            
+                            <button id="dislikebtn" class=" fa fa-thumbs-down"></button>
+                            <input type="number" id="input2" value="0" name="">
+                            <i class="fa fa-comment ml-3"></i>    
+                            <button type="button" class="btn btn-light text-primary">View Blog Post</button>
+                        </span>
+                        <hr class="mt-4">
+                    </div>
+                    <!-- Post3 -->
+                    <div class="container bg-white ">
+                        <hr>
+                        <header class="mt-1">
+                            <h5> Big Bad wolve</h5>
+                        </header>
+                        <p>
+                            The international community under the leadership of Mr John Doe is indeed been a promising one
+                            as Mr John as lea Maor Change in the interelation between the World. Mr John and his close collegue is
+                            been leading major change in our world Today.... <a href="#">see more.</a>
+                        </p>
+                        <span>
+                            <button id="likebtn" class=" fa fa-thumbs-up"></button>
+                            <input type="number" id="input1" value="0" name="">
+                            
+                            <button id="dislikebtn" class=" fa fa-thumbs-down"></button>
+                            <input type="number" id="input2" value="0" name="">
+                            <i class="fa fa-comment ml-3"></i>
+                            
+                            <button type="button" class="btn btn-light text-primary">View Blog Post</button>
+                        </span>
+                        
+                        <hr class="mt-4">
+                    </div>
+                    <!-- Post4 -->
+                    <div class="container bg-white ">
+                        <hr>
+                        <header class="mt-1">
+                            <h5> Exceptional</h5>
+                        </header>
+                        <p>
+                            The international community under the leadership of Mr John Doe is indeed been a promising one
+                            as Mr John as lea Maor Change in the interelation between the World. Mr John and his close collegue is
+                            been leading major change in our world Today.... <a href="#">see more.</a>
+                        </p>
+                        <span>
+                            <button id="likebtn" class=" fa fa-thumbs-up"></button>
+                            <input type="number" id="input1" value="0" name="">
+                            
+                            <button id="dislikebtn" class=" fa fa-thumbs-down"></button>
+                            <input type="number" id="input2" value="0" name="">
+                            <i class="fa fa-comment ml-3"></i>
+                            <button type="button" class="btn btn-light text-primary">View Blog Post</button>
+                            
+                            
+                        </span>
+                        <hr class="mt-4">
+                    </div>
+                </aside>
+
+<!-- Container 3- Ads.. -->
+                <aside class="container3">
+                    <p class="display-4 ml-3">maybe ads will show here</p>
+                </aside>
+    </section>
+
+    
+    <script type="text/javascript">
+            let likebtn = document.querySelector('#likebtn');
+            let dislikebtn = document.querySelector('#dislikebtn');
+            let input1 = document.querySelector('#input1');
+            let input2 = document.querySelector('#input2');
+
+            likebtn.addEventListener('click', () => {
+                input1.value = parseInt(input1.value) + 1;
+                input1.style.color = "#12ff00";
+            })
+            dislikebtn.addEventListener('click', () => {
+                    input2.value = parseInt(input2.value) + 1;
+                    input2.style.color = "#ff0000";
+                })
+        
+
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- add after bootstrap.min.js -->
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+    
+</body>
+</html>
