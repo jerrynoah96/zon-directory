@@ -26,9 +26,12 @@ addPostForm.addEventListener('submit', (e)=> {
         //create PostDiv
         var postDiv = document.createElement('div');
         postDiv.classList.add('container', 'bg-white');
+        console.log(postDiv);
 
         //create horizonatal line
         var line = document.createElement('hr');
+        var line2 = document.createElement('hr');
+        line2.classList.add('mt-4');
         
 
         //create Post Header element
@@ -87,21 +90,23 @@ addPostForm.addEventListener('submit', (e)=> {
        
         postList.appendChild(postDiv);
         postDiv.appendChild(line);
-        line.appendChild(postHeading);
+        postDiv.appendChild(postHeading);
 
         postHeading.appendChild(h5);
-        line.appendChild(postContent);
-        line.appendChild(lucv);
+        postDiv.appendChild(postContent);
+        postDiv.appendChild(lucv);
         lucv.appendChild(likeBtn);
         lucv.appendChild(input1);
         lucv.appendChild(disLikeBtn);
         lucv.appendChild(input2);
         lucv.appendChild(commentIcon);
         lucv.appendChild(viewBlogBtn);
+        postDiv.appendChild(line2);
+        
 
 
         postSection.style.display = 'none';
-
+        
         newPostContent.value = '';
         newPostHeading.value = '';
 

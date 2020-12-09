@@ -31,6 +31,7 @@
 }
 body{
   display: relative;
+  background-color: whitesmoke;
 }
 /* container css */
 .box{
@@ -38,6 +39,7 @@ body{
   padding-left: 25px;
   padding-right: 25px;
 }
+
 .container1{
    background-color:whitesmoke;
     width: 20%;
@@ -169,4 +171,8 @@ button:active{
   bottom: 5%;
   right: 10%;
   position: fixed;
+}
+.container{
+  background-color: white !important;
+  overflow: auto;
 }
