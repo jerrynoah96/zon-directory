@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
@@ -16,7 +17,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./js/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <title>Zon</title>
@@ -74,7 +74,7 @@
                         <hr class="mt-4">
                     </div>
                     <!-- Post2 -->
-                    <div class="container bg-white ">
+                    <div class="container bg-white">
                         <hr>
                         <header class="mt-1">
                             <h5> John Doe</h5>
@@ -144,6 +144,53 @@
                         </span>
                         <hr class="mt-4">
                     </div>
+
+                    <div class="container bg-white ">
+                        <hr>
+                        <header class="mt-1">
+                            <h5> Exceptional</h5>
+                        </header>
+                        <p>
+                            The international community under the leadership of Mr John Doe is indeed been a promising one
+                            as Mr John as lea Maor Change in the interelation between the World. Mr John and his close collegue is
+                            been leading major change in our world Today.... <a href="#">see more.</a>
+                        </p>
+                        <span>
+                            <button id="likebtn" class=" fa fa-thumbs-up"></button>
+                            <input type="number" id="input1" value="0" name="">
+                            
+                            <button id="dislikebtn" class=" fa fa-thumbs-down"></button>
+                            <input type="number" id="input2" value="0" name="">
+                            <i class="fa fa-comment ml-3"></i>
+                            <button type="button" class="btn btn-light text-primary">View Blog Post</button>
+                            
+                            
+                        </span>
+                        <hr class="mt-4">
+                    </div>
+
+                    <hr>
+                    <header class="mt-1">
+                        <h5> Exceptional5</h5>
+                    </header>
+                    <p>
+                        The international community under the leadership of Mr John Doe is indeed been a promising one
+                        as Mr John as lea Maor Change in the interelation between the World. Mr John and his close collegue is
+                        been leading major change in our world Today.... <a href="#">see more.</a>
+                    </p>
+                    <span>
+                        <button id="likebtn" class=" fa fa-thumbs-up"></button>
+                        <input type="number" id="input1" value="0" name="">
+                        
+                        <button id="dislikebtn" class=" fa fa-thumbs-down"></button>
+                        <input type="number" id="input2" value="0" name="">
+                        <i class="fa fa-comment ml-3"></i>
+                        <button type="button" class="btn btn-light text-primary">View Blog Post</button>
+                        
+                        
+                    </span>
+                    <hr class="mt-4">
+                </div>
                 </aside>
 
 <!-- Container 3- Ads.. -->
@@ -152,7 +199,30 @@
                 </aside>
     </section>
 
+    <section class="post-section">
+        <form action=""class= 'post-form' id="newPostForm">
+            <span class="close-post">+</span>
+
+            <input type="text" class="post-heading" placeholder="Post Heading">
+            <textarea name="" id="" cols="30" rows="10" class="post-content" placeholder="Type your post here"></textarea>
+            <button class="submit-post">Post</button>
+            
+        </form>
+
+    </section>
+
+    <div class="new-post">
+        +
+    </div>
+
     
+
+
+
+
+
+
+    <script src="./js/index.js"></script>
     <script type="text/javascript">
             let likebtn = document.querySelector('#likebtn');
             let dislikebtn = document.querySelector('#dislikebtn');

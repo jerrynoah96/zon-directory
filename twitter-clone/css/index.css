@@ -29,6 +29,9 @@
 .active-cyan .fa, .active-cyan-2 .fa {
   color: #4dd0e1;
 }
+body{
+  display: relative;
+}
 /* container css */
 .box{
   margin-top: 50px;
@@ -66,7 +69,6 @@ input{
   background: none;
   color: #919191;
   font-size: 20px;
-  pointer-events: none;
 }
 button{
   color:black;
@@ -78,4 +80,93 @@ button{
 button:active{
   color: #004eff;
   transform: scale(1.2);
+}
+.post-section{
+  background-color: rgba(0,0,0, 0.6);
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  transition: all .2s ease-in-out;
+  display: none;
+}
+.post-form {
+  background-color: white;
+  height: 60%;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.post-form textarea{
+  margin-top: 1.5rem;
+  position: absolute;
+  width: 80%;
+  height: 70%;
+}
+.post-heading {
+  position: absolute;
+  top: 2%;
+  height: 10%;
+  width: 60% ;
+  left: 50%;
+  transform: translate(-45%, 2%);
+  border: thin solid black;
+
+}
+.post-heading::placeholder{
+  text-align: center;
+}
+.submit-post{
+  font-size: 1rem;
+  margin-top: 2rem;
+  background-color: #4dd0e1;
+  width: 6rem;
+  position: absolute;
+  bottom: 2%;
+  
+}
+.submit-post:active{
+  color: #004eff;
+  transform: scale(1.05);
+  border: none;
+}
+.close-post{
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  font-weight: bold;
+  height: 1rem;
+  width: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transform: rotate(45deg);
+  color: #4dd0e1;
+  
+}
+.new-post{
+  height: 3rem;
+  width: 3rem;
+  background-color: #4dd0e1;
+  color: white;
+  font-size: 2.3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  position: fixed;
 }
